@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vigília Estelar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="jogo"></div>
+  <noscript>Ative o JavaScript para jogar.</noscript>
+
+  <!-- Engine -->
+  <script src="lib/phaser.min.js"></script>
+
+  <!-- Jogo (scripts comuns, sem módulos, para abrir direto do arquivo) -->
+  <script src="src/config.js"></script>
+  <script src="src/audio.js"></script>
+  <script src="src/textures.js"></script>
+  <script src="src/input.js"></script>
+  <script src="src/entities/Player.js"></script>
+  <script src="src/entities/Enemies.js"></script>
+  <script src="src/entities/PowerUp.js"></script>
+  <script src="src/systems/Starfield.js"></script>
+  <script src="src/systems/WaveManager.js"></script>
+  <script src="src/scenes/BootScene.js"></script>
+  <script src="src/scenes/MenuScene.js"></script>
+  <script src="src/scenes/GameScene.js"></script>
+  <script src="src/scenes/HUDScene.js"></script>
+  <script src="src/scenes/PauseScene.js"></script>
+  <script src="src/scenes/EndScene.js"></script>
+  <script src="src/main.js"></script>
+</body>
+</html>
